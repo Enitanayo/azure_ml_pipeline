@@ -1,0 +1,16 @@
+name: preprocess
+display_name: Preprocess Application Data
+version: 3
+type: command
+inputs:
+  input_data:
+    type: uri_file
+outputs:
+  output_dir:
+    type: uri_folder
+code: .
+environment: azureml:pipeline_env:1
+command: >-
+  python preprocess.py 
+  --input_data ${{inputs.input_data}} 
+  --output_dir ${{outputs.output_dir}}

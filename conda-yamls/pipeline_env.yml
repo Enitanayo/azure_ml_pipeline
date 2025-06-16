@@ -1,0 +1,16 @@
+name: pipeline_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - azure-cli
+      - azure-ai-ml
+      - azure-identity
+      - python-dotenv
+      - jupyter

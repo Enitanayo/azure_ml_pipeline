@@ -1,0 +1,16 @@
+name: split_and_train
+display_name: Split and Train Model
+version: 3
+type: command
+inputs:
+  input_data:
+    type: uri_folder
+outputs:
+  model_output:
+    type: uri_folder
+code: .
+environment: azureml:pipeline_env:1  # Replace with your environment
+command: >-
+  python split_and_train.py
+  --input_data ${{inputs.input_data}}
+  --model_output ${{outputs.model_output}}

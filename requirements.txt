@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+azure-cli
+azure-ai-ml
+azure-identity
+python-dotenv
+jupyter
