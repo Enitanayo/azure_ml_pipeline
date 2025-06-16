@@ -1,4 +1,4 @@
-## CREATING AZURE ML PIPELINE WITH AZURE ML SDK ON LOCAL SYSTEM
+## CREATING AZURE ML PIPELINE WITH AZURE ML PYTHON SDK ON LOCAL SYSTEM
 ### PHASE 0
     * Create a project folder
     * Create a virtual environment (venv) inside project folder and install libraries in requirements.txt
