@@ -61,4 +61,4 @@
 * Connecting all these components is easy just to drag lines from the end of one component to another
 * At the end of connecting all the components your pipeline can look something like this:
 
-![Pipeline example image](images\pipeline.JPG)
+![Pipeline example image](images/pipeline.JPG)
